@@ -8,7 +8,7 @@ echo -e "\e[31m >>>>>>>>remove Nginx configuration<<<<<<<< \e[0m"
 rm -rf /usr/share/nginx/html/*
 echo -e "\e[31m >>>>>>>>download the frontend app<<<<<<<< \e[0m"
 cd
-curl -o /tmp/frontend.zip https://roboshop.artifacts.s3.amazon.com/frontend.zip
+curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend.zip
 echo -e "\e[31m >>>>>>>>nginx path <<<<<<<< \e[0m"
 cd /usr/share/nginx/html
 echo -e "\e[31m >>>>>>>>unzip the frontend<<<<<<<< \e[0m"
