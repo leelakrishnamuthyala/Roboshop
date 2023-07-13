@@ -14,6 +14,7 @@ cd /usr/share/nginx/html
 echo -e "\e[31m >>>>>>>>unzip the frontend<<<<<<<< \e[0m"
 unzip /tmp/frontend.zip
 echo -e "\e[31m >>>>>>>>copy configuration file<<<<<<<< \e[0m"
+cd
 cp /home/centos/Roboshoop/roboshop.config /etc/nginx/default.d/roboshop.conf
 echo -e "\e[31m >>>>>>>>Restart Nginx services<<<<<<<< \e[0m"
 systemctl restart nginx
